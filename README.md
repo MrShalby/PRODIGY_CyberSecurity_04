@@ -1,26 +1,32 @@
-🖥️ Keylogger in Python
-This is a simple keylogger written in Python using the pynput library. It captures keystrokes in real time and logs them to a file (keylog.txt). The logger handles both normal characters and special keys (like Space, Enter, Tab) and exits safely when the Escape (Esc) key is pressed.
+# 🖥️ Python Keylogger
+
+A simple and lightweight keylogger written in Python using the `pynput` library. It logs all keyboard inputs (including special keys like Space, Enter, and Tab) into a local file and can be safely stopped by pressing the `Esc` key.
+
+---
 
 🚨 Disclaimer
-This project is intended for educational and ethical use only. Do not run this software on any machine or network without explicit permission. Unauthorized use may violate local laws and privacy regulations.
+This project is strictly for educational and ethical testing purposes only.
+Do NOT run this script on any device or system that you do not own or have explicit permission to monitor.
+Misuse of this software may violate privacy laws and regulations.
 
-✅ Features
-Captures all keystrokes in real time
+---
 
-Logs data to a local file (keylog.txt)
+## 🚀 Features
 
-Handles special keys (e.g., Space, Enter, Tab)
+- ✅ Real-time keystroke capturing
+- ✅ Handles special keys (Space, Enter, Tab, etc.)
+- ✅ Logs output to `keylog.txt`
+- ✅ Stops gracefully when `Esc` is pressed
+- ✅ Minimal and readable code
 
-Stops automatically when Esc is pressed
+---
 
-Lightweight and minimal codebase
+## 🛠️ Requirements
 
-🛠️ Requirements
-Python 3.x
-pynput library
-Install via pip:
+- Python 3.x  
+- `pynput` library
+
+### 📦 Install Dependencies
+
+```bash
 pip install pynput
-
-📂 Output
-All logged keystrokes are saved in keylog.txt located in the same directory as the script.
-
