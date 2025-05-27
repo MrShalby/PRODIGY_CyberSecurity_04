@@ -4,7 +4,7 @@ A simple and lightweight keylogger written in Python using the `pynput` library.
 
 ---
 
-🚨 Disclaimer
+🚨 Disclaimer :- \n
 This project is strictly for educational and ethical testing purposes only.
 Do NOT run this script on any device or system that you do not own or have explicit permission to monitor.
 Misuse of this software may violate privacy laws and regulations.
